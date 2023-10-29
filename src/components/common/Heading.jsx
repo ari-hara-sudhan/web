@@ -1,8 +1,13 @@
 import React from 'react'
 
-function Heading() {
+function Heading({title, subtitle}) {
   return (
-    <div>Heading</div>
+    <>
+    <div className='heading'>
+      <h1>{title}</h1>
+      <p>{subtitle}</p>
+    </div>
+    </>
   )
 }
 
