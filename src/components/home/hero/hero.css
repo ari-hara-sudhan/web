@@ -1,5 +1,5 @@
 .hero {
-    background-image: url("../../../../public/images/banner.png");
+    background-image: url("../../../../public/images/banner.jpg");
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
@@ -12,12 +12,13 @@
 }
 
 .hero h1 {
-    color: #fff;
+    color: black;
     font-size: 60px;
 }
 
 .hero p {
-    color: #fff;
+    color: black;
+    font-size: 20px;
     opacity: 0.8;
 }
 

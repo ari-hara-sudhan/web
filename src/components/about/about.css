@@ -15,6 +15,11 @@
     line-height: 30px;
 }
 
+.about .right {
+    height: 400px;
+    width: 1400px;
+}
+
 @media screen and (max-width: 768px) {
     .about .container {
         flex-direction: column;

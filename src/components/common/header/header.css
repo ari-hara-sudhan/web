@@ -12,10 +12,17 @@ header img {
     width: 170px;
 }
 
+header .logo {
+    position: relative;
+    top: -10px;
+}
+
 header a {
     margin-left: 30px;
     transition: 0.5s;
     font-weight: 500;
+    position: relative;
+    top: -10px;
 }
 
 header a:hover {
@@ -35,10 +42,17 @@ header span {
 header h4 {
     font-weight: 500;
     margin-right: 20px;
+    position: relative;
+    top: -15px;
 }
 
 header .toggle {
     display: none;
+}
+
+header .btn1 {
+    position: relative;
+    top: -10px;
 }
 
 @media screen and (max-width: 768px) {
