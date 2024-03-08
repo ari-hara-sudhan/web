@@ -24,7 +24,7 @@ function About() {
 
           </div>
           <div className='right row'>
-            <img src='./immio.jpg' alt='' />
+            <img src='./immio1.jpg' alt='' />
           </div>
         </div>
       </section>

@@ -17,7 +17,7 @@
 
 .recent .img {
     height: 260px;
-    width: 400px;
+    max-width: 100%;
 }
 
 .recent p {

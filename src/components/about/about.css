@@ -17,7 +17,7 @@
 
 .about .right {
     height: 400px;
-    width: 1400px;
+    width: 1000px;
 }
 
 @media screen and (max-width: 768px) {
