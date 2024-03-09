@@ -61,7 +61,7 @@ export const featured = [
 export const list = [
   {
     id: 1,
-    cover: "../images/list/p-1.png",
+    cover: "../images/list/p-1.jpg",
     name: "Red Carpet Real Estate",
     location: "Kupondol, Lalitpur",
     category: "For Rent",
