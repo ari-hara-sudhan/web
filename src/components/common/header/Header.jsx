@@ -13,7 +13,8 @@ const Header = () => {
       <header>
         <div className='container flex'>
           <div className='logo'>
-            <img src='./images/logo.png' alt='' />
+            {/* <img src='./images/logo.png' alt='' /> */}
+            <p className="head">psr-cse</p>
           </div>
           <div className='nav'>
             <ul className={navList ? "small" : "flex"}>
@@ -24,13 +25,13 @@ const Header = () => {
               ))}
             </ul>
           </div>
-          <div className='button flex'>
+          <div >
             <h4>
-              <span>2</span> My List
-            </h4>
+             My List</h4>
+            {/* </h4>
             <button className='btn1'>
               <FontAwesomeIcon icon={faSignOut} /> Sign In
-            </button>
+            </button> */}
           </div>
           <div className='toggle'>
             <button onClick={() => setNavList(!navList)}>

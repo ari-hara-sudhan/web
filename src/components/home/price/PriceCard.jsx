@@ -12,29 +12,12 @@ const PriceCard = () => {
             </div>
             <h3>{item.plan}</h3>
             <h1>
-              <span>Rs.</span>
-              {item.price}
+              <span></span>
+              
             </h1>
-            <p>{item.ptext}</p>
+            <p></p>
 
-            <ul>
-              {item.list.map((val) => {
-                const { icon, text, change } = val
-                return (
-                  <li>
-                    <label
-                      style={{
-                        background: change === "color" ? "#dc35451f" : "#27ae601f",
-                        color: change === "color" ? "#dc3848" : "#27ae60",
-                      }}
-                    >
-                      {icon}
-                    </label>
-                    <p>{text}</p>
-                  </li>
-                )
-              })}
-            </ul>
+            <a href="https://portfolio.metamask.io/">
             <button
               className='btn5'
               style={{
@@ -42,8 +25,10 @@ const PriceCard = () => {
                 color: item.plan === "Standard" ? "#fff" : "#27ae60",
               }}
             >
-              Start {item.plan}
+              Run profile
             </button>
+            </a>
+          
           </div>
         ))}
       </div>

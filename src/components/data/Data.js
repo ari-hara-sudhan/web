@@ -18,18 +18,12 @@ export const nav = [
     text: "services",
     path: "/services",
   },
+  
   {
-    text: "blog",
-    path: "/blog",
-  },
-  {
-    text: "pricing",
+    text: "Sell",
     path: "/pricing",
   },
-  {
-    text: "contact",
-    path: "/contact",
-  },
+ 
 ]
 export const featured = [
   {
@@ -54,7 +48,7 @@ export const featured = [
   },
   {
     cover: "../images/hero/h6.png",
-    name: "Villa & Condo",
+    name: "Villa ",
     total: "80 Property",
   },
 ]
@@ -64,8 +58,8 @@ export const list = [
     cover: "../images/list/p-1.jpg",
     name: "Red Carpet Real Estate",
     location: "Kupondol, Lalitpur",
-    category: "For Rent",
-    price: "Rs.37,000",
+    category: "For sale",
+    price: "37,000",
     type: "Apartment",
   },
   {
@@ -74,7 +68,7 @@ export const list = [
     name: "Red Flame Properties",
     location: "New Road, Kathmandu",
     category: "For Sale",
-    price: "Rs.45,000",
+    price: "45,000",
     type: "Condos",
   },
   {
@@ -82,8 +76,8 @@ export const list = [
     cover: "../images/list/p-7.jpg",
     name: "The Real Estate Corner",
     location: "Thamel, Kathmandu",
-    category: "For Rent",
-    price: "Rs.55,000",
+    category: "For sale",
+    price: "55,000",
     type: "Offices",
   },
   {
@@ -92,7 +86,7 @@ export const list = [
     name: "Blue Realty",
     location: "Pulchowk, Lalitpur",
     category: "For Sale",
-    price: "Rs.57,000",
+    price: "57,000",
     type: "Homes & Villas",
   },
   {
@@ -100,8 +94,8 @@ export const list = [
     cover: "../images/list/p-5.jpg",
     name: "Brick Lane Realty",
     location: "Birtamod, Jhapa",
-    category: "For Rent",
-    price: "Rs.15,000",
+    category: "For sale",
+    price: "15,000",
     type: "Commercial",
   },
   {
@@ -110,7 +104,7 @@ export const list = [
     name: "Banyon Tree Realty",
     location: "Gairidhara, Kathmandu",
     category: "For Sale",
-    price: "Rs.25,000",
+    price: "25,000",
     type: "Apartment",
   },
 ]
@@ -332,14 +326,7 @@ export const price = [
 export const footer = [
   {
     title: "LAYOUTS",
-    text: [{ list: "Home Page" }, { list: "About Page" }, { list: "Service Page" }, { list: "Property Page" }, { list: "Contact Page" }, { list: "Single Blog" }],
+    text: [{ list: "Home Page" }, { list: "About Page" }, { list: "Service Page" }, { list: "Property Page" },],
   },
-  {
-    title: "ALL SECTIONS",
-    text: [{ list: "Headers" }, { list: "Features" }, { list: "Attractive" }, { list: "Testimonials" }, { list: "Videos" }, { list: "Footers" }],
-  },
-  {
-    title: "COMPANY",
-    text: [{ list: "About" }, { list: "Blog" }, { list: "Pricing" }, { list: "Affiliate" }, { list: "Login" }, { list: "Changelog" }],
-  },
+ 
 ]

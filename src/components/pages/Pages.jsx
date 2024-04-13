@@ -18,12 +18,12 @@ function Pages() {
       <Route path = '/' element={<Home />}/>
       <Route path = '/about' element={<About />}/>
       <Route path = '/services' element={<Services />}/>
-      <Route path = '/blog' element={<Blog />}/>
+      {/* <Route path = '/blog' element={<Blog />}/>
       <Route path = '/pricing' element={<Pricing />}/>
-      <Route path = '/contact' element={<Contact />}/>
+      <Route path = '/contact' element={<Contact />}/> */}
     </Routes>
     <Footer />
-    </Router>
+  </Router>
     </>
   )
 }

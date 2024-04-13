@@ -24,7 +24,11 @@ const RecentCard = () => {
               </div>
               <div className='button flex'>
                 <div>
-                  <button className='btn2'>{price}</button> <label htmlFor=''>/sqft</label>
+                  <p>{price}eth</p>
+                  <a href="https://portfolio.metamask.io/">
+                  <button className='btn2'>BuyNow</button>
+                  </a>
+                 <label htmlFor=''>/sqft</label>
                 </div>
                 <span>{type}</span>
               </div>

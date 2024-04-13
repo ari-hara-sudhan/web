@@ -8,6 +8,14 @@ header {
     z-index: 99999;
 }
 
+.head{
+    margin:10px;
+    padding:10px;
+    background:green;
+    color:white;
+    border:1px solid white;
+    border-radius:30px;
+}
 header img {
     width: 170px;
 }
